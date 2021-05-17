@@ -18,6 +18,6 @@ Route::get('/', function () {
 });
 
 
-Route::get('/500', function () {
+Route::get('/test500', function () {
     return view(abort(500));
 });
